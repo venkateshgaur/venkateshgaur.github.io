@@ -1,0 +1,63 @@
+.section {
+    margin-top: 48px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.card {
+    display: block;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    border-color: var(--text-secondary);
+    background: var(--background);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.active {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+}
+
+.past {
+    background: rgba(245, 158, 11, 0.1);
+    color: #F59E0B;
+}
+
+.description {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}

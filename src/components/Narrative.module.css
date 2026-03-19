@@ -1,0 +1,35 @@
+.narrative {
+    /* No extra wrapper styling — clean whitespace */
+}
+
+.section {
+    margin-top: 36px;
+}
+
+.body {
+    font-size: 15.5px;
+    line-height: 1.78;
+    color: var(--color-text);
+    font-weight: 400;
+}
+
+.body strong {
+    font-weight: 600;
+}
+
+.body a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 3px;
+}
+
+.body a:hover {
+    text-decoration-color: var(--color-text);
+    opacity: 1;
+}
+
+.bodySmall {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    margin-top: 12px;
+}
